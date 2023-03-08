@@ -2,7 +2,7 @@
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { Server } from 'socket.io';
 
-import adapter from '@sveltejs/adapter-netlify';
+import adapter from '@sveltejs/adapter-vercel';
 
 
 
