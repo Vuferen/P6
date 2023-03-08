@@ -18,6 +18,7 @@ const webSocketServer = {
 		});
 		socket.on('items1', items => {
 			io.emit('items1', items)
+			console.log("Item1-server")
 		})
 		socket.on('items2', items => {
 			io.emit('items2', items)

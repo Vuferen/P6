@@ -41,6 +41,7 @@
         })
 		socket.on("items1", items => {
 			myItems = items;
+			console.log("Item1-client")
 		})
 		socket.on("items2", items => {
 			myItems2 = items;
