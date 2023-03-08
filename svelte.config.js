@@ -1,6 +1,8 @@
-import adapter from '@sveltejs/adapter-node';
+// import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { Server } from 'socket.io';
+
+import adapter from '@sveltejs/adapter-netlify';
 
 
 
@@ -19,3 +21,6 @@ const config = {
 };
 
 export default config;
+
+
+
